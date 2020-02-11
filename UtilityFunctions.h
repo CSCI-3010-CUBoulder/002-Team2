@@ -1,6 +1,9 @@
 #ifndef UTIL_H
 #define UTIL_H
 
+#include <iostream>
+#include <vector>
+
 /**
   Sum adds all numbers in a vector.
 
