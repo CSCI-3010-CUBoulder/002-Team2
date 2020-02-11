@@ -20,7 +20,7 @@ int main( int argc, char *argv[] )
     std::cout << "Multiples Filter test:" << std::endl << "Vector before function: ";
     for( int i=0; i<test_multiples.size(); i++ )
     {
-        if( i != 1 )
+        if( i != 0 )
         {
             std::cout << ", ";
         }
