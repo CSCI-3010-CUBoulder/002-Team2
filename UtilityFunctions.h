@@ -4,6 +4,8 @@
 #include <vector>
 #include <iostream>
 
+double Sign(double num);
+
 // Jason
 // takes a vector of integers and removes all elements evenly divisible by the passed in int
 std::vector<int> MultiplesFilter(std::vector<int>, int divides_by);

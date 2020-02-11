@@ -1,5 +1,9 @@
 #include "UtilityFunctions.h"
 
+double Sign(double num){
+	return num >=0 ? 1 : -1;
+}
+
 // Jason
 std::vector<int> MultiplesFilter(std::vector<int> elements, int divides_by)
 {
