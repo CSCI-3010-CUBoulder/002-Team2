@@ -18,7 +18,7 @@ TEST_CASE( "MultiplesFilter" ) {
     expected_out.push_back(1);
     expected_out.push_back(2);
     expected_out.push_back(4);
-    expected_out.push_back(1);
+    expected_out.push_back(5);
     expected_out.push_back(7);
     expected_out.push_back(8);
     expected_out.push_back(10);
@@ -34,6 +34,7 @@ TEST_CASE( "MultiplesFilter" ) {
         verified = verified && expected_out[i] == test_multiples_out[i];
     }
     REQUIRE( s1 == s2 );
+    REQUIRE( verified );
 }
 
 // Each SECTION should test one aspect of that function
